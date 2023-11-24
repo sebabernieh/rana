@@ -42,7 +42,7 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - certbot-var:/var/lib/letsencrypt
-    command: certonly --webroot --webroot-path=/var/www/html --email youremail@example.com --agree-tos --no-eff-email -d nameCheapDomainName
+    command: certonly --webroot --webroot-path=/var/www/html --email barnieh.seba@std.izu.edu.tr --agree-tos --no-eff-email -d sebar.me
 
 volumes:
   db_data:
